@@ -79,7 +79,7 @@ export default function googlePlaces({...options}) {
     },
 
     getPlace(prediction, callback = (noop => noop)) {
-      if (!prediction || typeof prediction !== 'object') {
+      if (!prediction && typeof prediction !== 'object') {
         prediction = {};
       }
 

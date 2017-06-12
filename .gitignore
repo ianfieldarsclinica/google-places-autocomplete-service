@@ -1,7 +1,8 @@
-.idea/
-node_modules/
-.DS_Store
-npm-debug.log
-*.suo
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+gitignore
 /.vs
 /goggle-places-autocomplete-service.njsproj
+/goggle-places-autocomplete-service.sln

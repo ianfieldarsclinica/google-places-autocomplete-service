@@ -56,7 +56,7 @@ function googlePlaces(_ref) {
           return;
         }
 
-        if (!(rejectRegex instanceof RegExp)) {
+        if (!prediction && typeof prediction !== 'object') {
           throw new Error('Pass a valid regex as third argument.');
         }
 
