@@ -44,7 +44,8 @@ export default function googlePlaces({...options}) {
           return;
         }
 
-        if (!(rejectRegex instanceof RegExp)) {
+          //rejectRegex has a default and is optional in docs
+        if (!rejectRegex && !(rejectRegex instanceof RegExp)) {
           throw new Error('Pass a valid regex as third argument.');
         }
 
